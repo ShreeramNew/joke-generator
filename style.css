@@ -1,0 +1,33 @@
+
+
+.body{
+    margin: 0;
+    display:flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(rgb(104, 104, 224),rgb(218, 231, 103),rgb(81, 153, 221));
+}
+ .container{
+    display: block;
+    width: 75%;
+    text-align: center;
+    background:linear-gradient(to right bottom, rgb(141, 141, 161),rgb(235, 255, 53),rgb(221, 81, 81));
+    padding: 20px;
+} 
+.title{
+    cursor:context-menu;
+}
+.display_joke{
+    margin: 3rem;
+}
+.generate_btn{
+    border-color: rgb(226, 233, 240);
+    cursor: pointer;
+    border-radius: 6px;
+}
+.generate_btn:hover{
+    color: blue;
+    box-shadow: 2px 1px 10px rgb(29, 28, 28);
+
+}
