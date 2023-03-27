@@ -22,6 +22,8 @@
     margin: 3rem;
 }
 .generate_btn{
+    height: 6vh;
+    width: 20vh;
     border-color: rgb(226, 233, 240);
     cursor: pointer;
     border-radius: 6px;
